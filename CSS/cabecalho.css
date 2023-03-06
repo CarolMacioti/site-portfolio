@@ -1,0 +1,43 @@
+body, .cabecalho-titulo {
+    margin: 0;
+    
+}
+
+.cabecalho {
+    align-items: center;
+    background-image: url(../IMG/banner-header.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-family: "Gloock", serif;
+    height: 90vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.botao-cabecalho {
+    background-color: rgba(112, 110, 114, 0.308);
+    border: none;
+    border-radius: 20px;
+    color: #3b1188;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.botao-cabecalho:hover {
+	color: #8307f7;
+    font-size: 20px;
+	text-decoration: underline;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+}
+
+
+.cabecalho-titulo, .cabecalho-saudacao {
+    color: rgb(233, 227, 227);
+}
+

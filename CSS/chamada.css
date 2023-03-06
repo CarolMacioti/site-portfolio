@@ -1,0 +1,40 @@
+.chamada {
+    padding: 90px;
+}
+
+.chamada-titulo {
+    font-size: 30px;
+    font-family: "Gloock", serif;
+    color: rgb(196, 185, 185);
+    margin-bottom: 40px;
+
+}
+
+.chamada-descricao {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(196, 185, 185);
+    width: 40%;
+    vertical-align: middle;
+    text-align: justify;
+    display: inline-block;
+}
+
+.conhecimentos {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(196, 185, 185);
+    width: 40%;
+    margin: 0 0 120px 120px;
+    vertical-align: middle;
+    text-align: justify;
+    display: inline-block;
+}
+
+.conhecimentos-titulo {
+    font-size: 20px;
+    font-family: "Gloock", serif;
+
+}
+
+/* editar a lista de conhecimentos */

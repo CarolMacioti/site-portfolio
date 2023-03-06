@@ -10,30 +10,44 @@
         
         <title>Carolina Dev Front-end</title>
         <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet" href="./CSS/cabecalho.css">
+        <link rel="stylesheet" href="./CSS/chamada.css">
+        <link rel="stylesheet" href="./CSS/curriculo.css">
+        <link rel="stylesheet" href="././CSS/rodape.css">
+        <link rel="stylesheet" href="./CSS/logos.css">
     </head>
 
     <body>
 
-        <header>
-            <h1>Oi, eu sou a Carolina Macioti</h1>
-            <p id="cabecalho">Seja bem-vinde ao meu mundo!</p>
-            <button>veja mais</button> 
+<!-- cabeçalho -->
+
+        <header class="cabecalho conteiner">
+            <h1 class="cabecalho-titulo">Oi, eu sou a Carolina </h1>
+            <p class="cabecalho-saudacao">Seja bem-vinde ao meu mundo!</p>
+            <button class="botao-cabecalho">veja mais</button> 
 
         </header>
 
-       <main>
-            <h2>Um pouco mais sobre mim</h2>
-            <div class="descricao">
-                <p>Eu sou Carolina Farias Macioti, sou bacharela em Direito formada pela Universidade Federal de Pelotas/RS. Atualmente, estudo Desenvolvimento de Software direcionado à especialização em Front-end.</p>
+<!-- chamada -->
 
-                <p>Este breve relato, marca o início de uma nova perspectiva, isso em muitos aspectos, tendo em vista minha iminente transição de carreira, já que após inúmeras tentativas de permanecimento em minha antiga profissão, o gosto pela tecnologia e apêlos visuais do mundo do UX|UI Design e Desenvolvimento Front-end chamaram mais alto. Sendo assim, aqui estou eu, dando o <b>"start"</b> em minha trajetória do zero em direção à um futuro regado à enriquecimento intelectual e satisfação pessoal.</p>
+        <main>
+            <section class="chamada conteiner">
+                <h2 class="chamada-titulo">Um pouco mais sobre mim</h2>
+                <div class="chamada-descricao">
+                    <p>Eu sou Carolina Farias Macioti, sou bacharela em Direito formada pela Universidade Federal de Pelotas/RS. Atualmente, estudo Desenvolvimento de Software direcionado à especialização em Front-end.</p>
 
-                <a class="cv" href="./curriculo.docx" download><img src="icone-curriculo.svg" class="seta">veja meu currículo</a>
-            </div>
-            
-            <div class="habilidades">
-                <h3>Conhecimentos</h3>
-                <ul>
+                    <p>Este breve relato, marca o início de uma nova perspectiva, isso em muitos aspectos, tendo em vista minha iminente transição de carreira, já que após inúmeras tentativas de permanecimento em minha antiga profissão, o gosto pela tecnologia e apêlos visuais do mundo do UX|UI Design e Desenvolvimento Front-end chamaram mais alto. Sendo assim, aqui estou eu, dando o <b>"start"</b> em minha trajetória do zero em direção à um futuro regado à enriquecimento intelectual e satisfação pessoal.</p>
+
+<!-- curriculo -->
+
+                    <a class="cv" href="./curriculo.docx" download><img src="icone-curriculo.svg" class="seta">veja meu currículo</a>
+                </div>
+                
+<!-- conhecimentos -->
+                
+                <div class="conhecimentos">
+                <h3 class="conhecimentos-titulo">Conhecimentos</h3>
+                <ul class="conhecimentos-lista">
                     <li>JavaScript</li>
                     <li>HTML5 e CSS3</li>
                     <li>Arquiteta CSS</li>
@@ -43,10 +57,12 @@
                     <li>Desenvolvimento pessoal</li>
                     <li> Bussines Agility</li>                  
                 </ul>
-            </div>
+                </div>
+            </section>
         </main>
         
-        <footer>
+<!-- rodapé -->        
+        <footer class="rodape">
 
             <div class="redes-sociais">
                                 

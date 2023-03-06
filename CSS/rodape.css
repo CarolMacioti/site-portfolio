@@ -1,0 +1,39 @@
+.rodape {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.redes-sociais a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    width: 20%;
+
+    text-decoration: none;
+}
+
+h4, a {
+    color: rgb(196, 185, 185);
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+    color:rgb(196, 185, 185);
+}
+
+.logos:hover{
+    color: #8307f7;
+    height: 110px;
+}
+
+.logo-copyright {
+    margin-top: 10%;
+}
+
