@@ -1,0 +1,155 @@
+html {
+    background-image: url(../IMG/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, body {
+    margin: 0;
+    
+}
+
+header {
+    align-items: center;
+    background-image: url(../IMG/banner-header.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    font-family: "Gloock", serif;
+    font-size:32px;
+    height: 90vh;
+    justify-content: center;
+}
+
+button {
+    background-color: rgba(112, 110, 114, 0.308);
+    border: none;
+    border-radius: 20px;
+    color: #3b1188;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button:hover {
+	color: #8307f7;
+    font-size: 20px;
+	text-decoration: underline;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+}
+
+
+h1, #cabecalho {
+    color: rgb(233, 227, 227);
+    
+}
+
+
+/* Sobre */
+
+main {
+    padding: 90px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Gloock", serif;
+    color: rgb(196, 185, 185);
+    margin-bottom: 40px;
+
+}
+
+.descricao {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(196, 185, 185);
+    width: 40%;
+    vertical-align: middle;
+    text-align: justify;
+    display: inline-block;
+}
+
+.habilidades {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(196, 185, 185);
+    width: 40%;
+    margin: 0 0 120px 120px;
+    vertical-align: middle;
+    text-align: justify;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Gloock", serif;
+
+}
+
+/* curriculo */
+.cv {
+    font-family: "Gloock", serif;
+    font-size: 20px;
+    font-style: italic;
+    color:rgb(196, 185, 185);
+}
+
+.cv:hover {
+	color: #8307f7;
+    font-size: 22px;
+	text-decoration: underline;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+
+}
+
+
+/*Redes Sociais*/
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+.redes-sociais a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    width: 20%;
+
+    text-decoration: none;
+}
+
+h4, a {
+    color: rgb(196, 185, 185);
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+    color:rgb(196, 185, 185);
+}
+
+.logos:hover{
+    color: #8307f7;
+    height: 110px;
+}
+
+.logo-copyright {
+    margin-top: 10%;
+}
+
+.copyright {
+	color: rgb(196, 185, 185);
+    font-size: 13px;
+}
+
+/* #7E4598; */
